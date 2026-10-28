@@ -1,0 +1,328 @@
+.learning-page {
+  min-height: 100vh;
+  background: #f8f9fd;
+  color: #202b3c;
+}
+
+.learning-page-navbar {
+  height: 76px;
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #e9ebf2;
+}
+
+.learning-back-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: transparent;
+  color: #667085;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.learning-page-brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #5b55e7;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.learning-page-main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 55px 25px 80px;
+}
+
+.learning-page-heading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.learning-page-icon {
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  color: #5b55e7;
+  background: #eae9ff;
+}
+
+.learning-page-heading > div:last-child > span {
+  color: #5b55e7;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.learning-page-heading h1 {
+  margin-top: 7px;
+  font-size: 29px;
+  line-height: 1.4;
+}
+
+.learning-page-heading p {
+  margin-top: 7px;
+  color: #778195;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.lesson-progress-card {
+  padding: 27px;
+  border: 1px solid #e9ebf2;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.lesson-progress-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.lesson-progress-heading h2 {
+  font-size: 19px;
+}
+
+.lesson-progress-heading p {
+  margin-top: 7px;
+  color: #778195;
+  font-size: 12px;
+}
+
+.lesson-progress-heading > strong {
+  color: #5b55e7;
+  font-size: 27px;
+}
+
+.lesson-progress-track {
+  height: 9px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #efeff7;
+}
+
+.lesson-progress-track span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #5b55e7;
+  transition: width 0.3s ease;
+}
+
+.course-completed-message {
+  margin-top: 18px;
+  color: #17865f;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.lessons-section {
+  margin-top: 40px;
+}
+
+.lessons-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.lessons-section-heading h2 {
+  font-size: 23px;
+}
+
+.lessons-section-heading > span {
+  padding: 8px 12px;
+  border-radius: 7px;
+  color: #5b55e7;
+  background: #eae9ff;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.lesson-list {
+  overflow: hidden;
+  border: 1px solid #e9ebf2;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.lesson-item {
+  width: 100%;
+  min-height: 76px;
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 30px 85px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 13px;
+  border: none;
+  border-bottom: 1px solid #eef0f5;
+  background: #fff;
+  text-align: left;
+  transition: background 0.2s ease;
+}
+
+.lesson-item:last-child {
+  border-bottom: none;
+}
+
+.lesson-item:hover {
+  background: #f9f8ff;
+}
+
+.lesson-status {
+  display: flex;
+  align-items: center;
+  color: #a0a6b5;
+}
+
+.lesson-item.completed .lesson-status {
+  color: #20a777;
+}
+
+.lesson-number {
+  color: #9299a9;
+  font-size: 10px;
+}
+
+.lesson-title {
+  color: #202b3c;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.lesson-item.completed .lesson-title {
+  color: #778195;
+}
+
+.lesson-action {
+  color: #5b55e7;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.lesson-item.completed .lesson-action {
+  color: #20a777;
+}
+
+.lesson-help-text {
+  margin-top: 16px;
+  color: #778195;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.back-to-learning-button {
+  margin-top: 28px;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 9px;
+  color: #fff;
+  background: #5b55e7;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.back-to-learning-button:hover {
+  background: #4540c9;
+}
+
+.learning-error {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.learning-error button {
+  margin-top: 20px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #5b55e7;
+}
+
+@media (max-width: 650px) {
+  .learning-page-navbar {
+    height: 68px;
+    padding: 0 17px;
+  }
+
+  .learning-page-brand {
+    font-size: 16px;
+  }
+
+  .learning-page-main {
+    padding: 35px 16px 55px;
+  }
+
+  .learning-page-heading {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .learning-page-heading h1 {
+    font-size: 23px;
+  }
+
+  .learning-page-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .lesson-progress-card {
+    padding: 20px;
+  }
+
+  .lesson-item {
+    grid-template-columns: 26px minmax(0, 1fr) auto;
+    gap: 10px;
+    padding: 15px 12px;
+  }
+
+  .lesson-number {
+    display: none;
+  }
+
+  .lesson-title {
+    font-size: 11px;
+  }
+
+  .lesson-action {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .learning-page-brand {
+    font-size: 14px;
+  }
+
+  .learning-back-button {
+    font-size: 11px;
+  }
+
+  .lesson-item {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .lesson-action {
+    grid-column: 2;
+  }
+}
